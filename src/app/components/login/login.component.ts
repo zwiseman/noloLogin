@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  showPassword: Boolean;
+  password: string;
+  email: string;
+
+  constructor() {
+    this.showPassword = false;
+  }
 
   ngOnInit() {
   }
 
+  showPasswordToggle() {
+    this.showPassword = !this.showPassword;
+  }
 }

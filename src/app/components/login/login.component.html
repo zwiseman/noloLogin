@@ -1,11 +1,24 @@
-<div class="flex col-md-6">
-  <input class="form-control" type="text">
-
+<div class="padding">
+  <!-- login title elements -->
+  <div class="text-center login-text">
+    <div class="row">
+      <hr class="w-25 hr-small">
+      <h3>LOGIN</h3>
+      <hr class="w-25 hr-small">
+    </div>
+  </div>
+  
+  <!-- email input -->
+  <input class="form-control" [(ngModel)]="email" placeholder="Email" type="text">
+  
+  <!-- space -->
   <br>
-
-  <div class="input-group ">
-    <input class="form-control no-right-border" type="password">
-    <button class="input-control noBorder">
+  
+  <!-- password input with show password functionality -->
+  <div class="input-group">
+    <input *ngIf="!showPassword" [(ngModel)]="password" class="form-control no-right-border" placeholder="Password" type="password">
+    <input *ngIf="showPassword" [(ngModel)]="password" class="form-control no-right-border" placeholder="Password" type="text">
+    <button class="input-control noBorder" (click)="showPasswordToggle()">
       <i class="fa fa-eye transparent" aria-hidden="true"></i>
     </button>
   </div>

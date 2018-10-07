@@ -7,6 +7,24 @@
     color: rgba(26, 247, 125, 0.418)
 }
 
+.login-text {
+    font-family: 'Lato', sans-serif;
+    color: rgb(93, 128, 231);
+    padding-bottom: 5%;
+    padding-left: 15%;
+}
+
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+}
+
 .noBorder {
     background: none;
     border: none;
@@ -40,4 +58,17 @@
 
 .no-right-border {
     border-right: none;
+}
+
+.hr-small{
+    padding-right: 0px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    margin-left: 10px;
+    background-color: rgb(197, 210, 245);
+}
+
+.padding {
+    padding: 20% 20% 20% 20%;
 }
