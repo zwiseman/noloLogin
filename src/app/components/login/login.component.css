@@ -7,11 +7,37 @@
     color: rgba(26, 247, 125, 0.418)
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
+.noBorder {
+    background: none;
+    border: none;
+    border-top: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-bottom-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+    outline: none;
+    outline-offset: -400px;
+    transition: border-color .15s;
 }
 
-input {
-    flex-grow: 2;
+.noBorder:focus {
+    background: none;
+    border: none;
+    border-top: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-bottom-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+    outline: none;
+    outline-offset: -400px;
+    transition: border-color .15s;
+}
+
+.form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
+.no-right-border {
+    border-right: none;
 }
