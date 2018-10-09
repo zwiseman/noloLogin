@@ -67,10 +67,11 @@
     padding-left: 0px;
     margin-left: 10px;
     background-color: rgb(197, 210, 245);
+    width: 30px;
 }
 
 .padding {
-    padding: 10% 20% 10% 20%;
+    padding: 10% 20% 0% 20%;
 }
 
 .gradient {
@@ -96,6 +97,7 @@ gradient:focus {
     font-size: 15px;
     color: rgba(22, 22, 22, 0.3);
     padding: 0.1px;
+    background: none;
 }
 
 .login-button-text {
