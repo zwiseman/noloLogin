@@ -8,7 +8,7 @@
 
 .pattern-image {
     position: absolute;
-    opacity: 0.2;
+    opacity: 0.5;
     top: 10px;
     left: 0px;
     height: 80%;
@@ -34,7 +34,56 @@
 
 .nolo-logo {
     z-index: 2;
-    transform:
-        translateY(65px)
-        translateX(70%);
+    padding-left: 30%;
+    padding-top: 8%;
+}
+
+.discription-text-padding {
+    color: white;  
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%; 
+    
+}
+
+.description-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+.desciption-header-text {
+    font-family: 'Lato', sans-serif;
+}
+
+.white-background {
+    background-color: white;
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+.description-bottom-text {
+    padding-right: 32%;
+    padding-left: 5%;
+    padding-top: 0%;
+}
+
+.mo-padding {
+    padding: 10% 5% 5% 5%;
+}
+
+.status {
+    padding-left: 5%;
+    padding-top: 2%;
+    color: rgb(76, 115, 227);
+}
+
+.small-back {
+    position: absolute;
+    left: 67%;
+    top: 64%;
+}
+
+.projector {
+    padding-left: 5%;
+    padding-top: 3%;
 }
